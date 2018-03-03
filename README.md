@@ -22,3 +22,15 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 The GNU General Public License is provided within the file [LICENSE](LICENSE).
+
+
+
+Files noteworthy:
+
+* ./playbooks/scripts/run.sh :- This creates the project/sa/pvs/ etc and as a final step created the application from the template. You can clone this project and just run this file from this folder. 
+
+* ./playbooks/scripts/deleteelements.sh: if you don't want to delete the project and only want to delete routes/svc etc.
+
+* ./playbooks/scripts/deletepv.sh: deletes the PVs
+* ./playbooks/scripts/createpv.sh: creates the PVs
+
